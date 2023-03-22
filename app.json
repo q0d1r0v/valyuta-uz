@@ -7,7 +7,7 @@
     "icon": "./assets/app-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/background-splash-image",
+      "image": "./assets/background-splash-image.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/app-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.qodirov_oybekjon.ValyutaUz"
     },
     "web": {
       "favicon": "./assets/app-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6a33a671-fc8e-4268-a513-b1171fad075f"
+      }
     }
   }
 }
